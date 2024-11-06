@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2ndGlow - Pengelolaan Limbah Minyak & Lilin Ramah Lingkungan</title>
+    <link rel="stylesheet" href="Edited.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <a href="#" class="logo"
+          ><img src="logo.png" alt="" class="logo-png" />
+        </a>
+        <div class="header-text">
+          <a href="#about">Tentang Kami</a>
+          <a href="#services">Layanan</a>
+          <a href="#forum">Forum</a>
+        </div>
+      </div>
+      <h1>
+        Where <span style="color: #b6984d">Waste</span> Finds New
+        <span style="color: #b6984d">Light</span>
+      </h1>
+      <div class="header-text2">
+        <p>
+          Visi kami menjadi pionir untuk menciptakan perubahan dalam pemanfaatan
+          limbah minyak menjadi suatu karya seni yang berkesan guna meningkatkan
+          kualitas hidup dan membangun lingkungan yang lebih hijau
+        </p>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="about" class="section">
+        <div class="about-img-div">
+          <img src="hand.jpg" alt="" class="about-img" />
+        </div>
+        <div class="text-about">
+          <h2 style="color: #b6984d">Tentang Kami</h2>
+          <p>
+            2ndGlow adalah sebuah inisiatif untuk mengurangi dampak limbah
+            minyak di Indonesia dengan cara mengubahnya menjadi lilin relaksasi
+            dan aromaterapi yang ramah lingkungan. Kami percaya bahwa melalui
+            inovasi dan kreativitas, kita dapat menciptakan produk yang
+            bermanfaat bagi manusia sekaligus mengurangi kerusakan alam yang
+            terjadi akibat limbah minyak.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="service-about">
+          <h2 style="color: #b6984d">Layanan Kami</h2>
+          <ul>
+            <li>
+              Forum diskusi dan konsultasi tentang pengelolaan limbah minyak.
+            </li>
+            <li>
+              Informasi dan tutorial tentang pembuatan lilin aromaterapi dari
+              bahan-bahan ramah lingkungan.
+            </li>
+            <li>
+              Paket lilin khusus yang dibuat sesuai kebutuhan dan preferensi
+              pelanggan.
+            </li>
+            <li>Layanan pesanan khusus untuk lilin aromaterapi.</li>
+            <li>
+              Panduan memilih lilin berdasarkan suasana hati, aroma, dan
+              kebutuhan.
+            </li>
+            <li>
+              Konten edukatif tentang manfaat aromaterapi dan keberlanjutan
+              lingkungan.
+            </li>
+            <li>
+              Kelas online tentang teknik pembuatan lilin dan pemanfaatan limbah
+              minyak.
+            </li>
+          </ul>
+        </div>
+        <div class="service-img-div">
+          <img src="potrait.jpg" alt="" class="service-img" />
+        </div>
+      </section>
+
+      <section id="konsultasi" class="section">
+        <h2 style="color: #b6984d">Jadwalkan Konsultasi</h2>
+        <form action="config.php" method="POST" class="form-konsultasi">
+          <label for="date">Tanggal:</label>
+          <input type="date" id="date" name="date" required />
+          <label for="time">Waktu:</label>
+          <input type="time" id="time" name="time" required />
+          <label for="phone">Nomor Handphone:</label>
+          <input type="tel" id="phone" name="phone" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="service">Pilih Layanan:</label>
+          <select id="service" name="service">
+            <option value="Penjadwalan">
+              Penjadwalan Pengambilan Minyak Jelantah
+            </option>
+            <option value="Workshop">Workshop Pengolahan Limbah Minyak</option>
+            <option value="Pembelian">
+              Pembelian Lilin Relaksasi dan Aromatik
+            </option>
+          </select>
+          <label for="notes">Catatan Tambahan:</label>
+          <textarea id="notes" name="notes" rows="4"></textarea>
+          <input type="submit" value="Jadwalkan" />
+        </form>
+      </section>
+
+      <section id="keranjang" class="section">
+        <h2 style="color: #b6984d">Produk Kami</h2>
+        <div class="body-keranjang">
+          <div class="product-side">
+            <div class="div-foto-product">
+              <img
+                src="relaksasi.png"
+                alt=""
+                class="foto-product"
+                id="fotoProduct"
+              />
+            </div>
+            <p id="namaProduct" class="nama-product">Relaksasi</p>
+            <div class="product-option">
+              <div id="relaksasi" class="option-product">
+                <img src="relaksasi.png" alt="" class="option-foto-product" />
+              </div>
+              <div id="aromaterapi" class="option-product">
+                <img
+                  src="aromaterapi.webp"
+                  alt=""
+                  class="option-foto-product"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="order-side">
+            <p>
+              Kami menghadirkan produk lilin aromaterapi dan lilin relaksasi
+              yang terbuat dari bahan utama minyak jelantah yang telah didaur
+              ulang. Minyak jelantah ini kami kumpulkan melalui kerjasama dengan
+              rumah tangga dan UMKM yang telah bermitra dengan kami, memastikan
+              proses yang berkelanjutan dan ramah lingkungan. Dengan aroma yang
+              menenangkan dan desain yang elegan, lilin kami tidak hanya
+              menciptakan suasana relaksasi, tetapi juga mendukung konsep daur
+              ulang dan pengurangan limbah. Produk ini dirancang dengan kualitas
+              tinggi dan melalui proses penyaringan yang teliti untuk memberikan
+              hasil lilin yang aman, bersih, serta menyebarkan keharuman
+              alami yang memikat.
+            </p>
+            <form action="config.php" method="POST">
+              <div class="order-adjust-buttons">
+                <div class="div-keranjang">
+                  <button id="minusBtn" class="minus-button" type="button">
+                    <img src="minus.png" alt="" class="minus" />
+                  </button>
+                  <input
+                    id="orderInput"
+                    type="text"
+                    readonly
+                    class="order-text"
+                    value="1"
+                    min="1"
+                  />
+                  <button id="plusBtn" class="plus-button" type="button">
+                    <img src="plus.png" alt="" class="plus" />
+                  </button>
+                </div>
+              </div>
+              <div class="div-order-button">
+                <button class="order-button" type="submit">
+                  Order <img src="shopping-cart.png" alt="" class="sh-cart" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="forum" class="section">
+        <h2 style="color: #b6984d">Forum Diskusi</h2>
+        <p>
+          Bergabunglah dengan komunitas kami untuk berdiskusi dan berbagi
+          pengalaman tentang pengelolaan limbah minyak dan pembuatan lilin. Kami
+          percaya bahwa kolaborasi adalah kunci untuk mencapai keberlanjutan.
+        </p>
+        <div class="images-container">
+          <img
+            src="https://example.com/discussion.jpg"
+            alt="Diskusi Pengelolaan Limbah"
+          />
+          <img
+            src="https://example.com/community.jpg"
+            alt="Komunitas Lingkungan"
+          />
+        </div>
+        <a href="https://web.whatsapp.com/082384113821" class="button"
+          >Bergabung Sekarang</a
+        >
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 2ndGlow. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <!-- Masukkan kode JavaScript sebelum penutup body -->
+    <script>
+      const minusBtn = document.getElementById("minusBtn");
+      const plusBtn = document.getElementById("plusBtn");
+      const orderInput = document.getElementById("orderInput");
+      const relaksasi = document.getElementById("relaksasi");
+      const aromaterapi = document.getElementById("aromaterapi");
+      const fotoProduct = document.getElementById("fotoProduct");
+      const namaProduct = document.getElementById("namaProduct");
+
+      relaksasi.addEventListener("click", function () {
+        fotoProduct.src = "relaksasi.png";
+        namaProduct.textContent = "Relaksasi";
+      });
+
+      aromaterapi.addEventListener("click", function () {
+        fotoProduct.src = "aromaterapi.webp";
+        namaProduct.textContent = "Aromaterapi";
+      });
+
+      plusBtn.addEventListener("click", function () {
+        let currentValue = parseInt(orderInput.value);
+        orderInput.value = currentValue + 1;
+      });
+
+      minusBtn.addEventListener("click", function () {
+        let currentValue = parseInt(orderInput.value);
+        if (currentValue > 1) {
+          // Agar tidak kurang dari 1
+          orderInput.value = currentValue - 1;
+        }
+      });
+
+      // Validasi form jadwal konsultasi
+      document
+        .querySelector("form")
+        .addEventListener("submit", function (event) {
+          const date = document.getElementById("date").value;
+          const time = document.getElementById("time").value;
+          const phone = document.getElementById("phone").value;
+          const email = document.getElementById("email").value;
+
+          if (!date || !time || !phone || !email) {
+            event.preventDefault();
+            alert("Semua kolom harus diisi!");
+          } else {
+            alert("Konsultasi berhasil dijadwalkan!");
+          }
+        });
+
+      // Smooth scroll ke bagian saat navigasi diklik
+      document.querySelectorAll("header a").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+
+      // Reveal sections saat scroll
+      const sections = document.querySelectorAll(".section");
+
+      const revealSection = () => {
+        sections.forEach((section) => {
+          const sectionTop = section.getBoundingClientRect().top;
+          const triggerPoint = window.innerHeight - 150;
+
+          if (sectionTop < triggerPoint) {
+            section.classList.add("visible");
+          }
+        });
+      };
+
+      window.addEventListener("scroll", revealSection);
+    </script>
+  </body>
+</html>
